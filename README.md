@@ -50,5 +50,5 @@ Open-source project & task management tool designed for developers and freelance
 ## Contact
 
 **Discord:** [zeediv](https://discord.com/users/444132380119138312)  
-**Email:** jakub@hostero.pl  
-**Website:** [hostero.pl](https://hostero.pl)
+**Email:** hello@zdv.sh  
+**Website:** [zdv.sh](https://zdv.sh)
