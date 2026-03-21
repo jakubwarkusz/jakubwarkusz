@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/images/banner.png" alt="Jakub Warkusz" />
+  <img src=".github/images/banner.png" alt="Jakub Warkusz" width="100%" />
 </p>
 
 # Jakub Warkusz
