@@ -11,7 +11,9 @@
 ## Stack
 
 **Primary:** Python · FastAPI · PostgreSQL
+
 **Secondary:** Go · Next.js · TypeScript
+
 **Infrastructure:** Docker · Linux · Nginx · Redis
 
 ---
