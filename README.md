@@ -1,47 +1,37 @@
 <p align="center">
-  <img src=".github/images/banner.png" alt="zeediv banner" />
+  <img src=".github/images/banner.png" alt="Jakub Warkusz" />
 </p>
 
-# Jakub
+# Jakub Warkusz
 
-**Full-Stack Developer & Freelancer**
-
-Building production-ready web apps, APIs, Discord bots, and self-hosted systems. Currently diving into cybersecurity, eBPF, and low-level networking.
+**Developer from Gdańsk.** I co-found [Hostero](https://hostero.pl) and work at [Hoxger](https://hoxger.com), the studio behind it. I split my time between building new things and making existing ones better. I write Python and TypeScript, care about how things feel as much as how they work, and don't ship anything I'm not proud of.
 
 ---
 
-## Tech Stack
+## Stack
 
-**Backend:** Python (FastAPI), Go, PHP (Laravel)  
-**Frontend:** Next.js, React, TailwindCSS  
-**Databases:** MySQL, MongoDB, Redis  
-**DevOps:** Docker, Linux, Nginx  
-**Learning:** eBPF, XDP, OSINT
+**Primary:** Python · FastAPI · PostgreSQL
+**Secondary:** Go · Next.js · TypeScript
+**Infrastructure:** Docker · Linux · Nginx · Redis
 
 ---
 
 ## Projects
 
 ### [Hostero.pl](https://hostero.pl)
-Gaming & VPS hosting platform. Laravel backend with React frontend handling server provisioning, billing, and customer management.
-
-### [Hoxger Tickets](https://tickets.hoxger.pl)
-Support ticketing system built with FastAPI and Next.js. Keeps support teams and users connected efficiently.
+One of the largest game and VPS hosting platforms in Poland. Built from scratch, operated in-house, and continuously developed. Custom panel, custom API, custom daemon. 15 000+ clients, 10 000+ servers.
 
 ### [Smithy](https://github.com/Anvoria/smithy)
-Open-source project & task management tool designed for developers and freelancers. Built with FastAPI and Next.js. Emphasizes minimalism with modular architecture and GitHub integration.
-
-### Discord Bots
-5+ years building automation bots with Nextcord/Discord.py. Currently developing advanced bot for Hostero with ticket integration.
+Open-source project and task management tool for developers. Built with FastAPI and Next.js. Minimal, modular, with GitHub integration.
 
 ---
 
 ## Stats
 
 <div align="center">
-  
-![GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=zeedivx&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/wakatime?username=zeediv&hide_border=true&theme=dark)
+
+![GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=jakubwarkusz&theme=dark&hide_border=true)
+![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=jakubwarkusz&hide_border=true&theme=dark)
 
 </div>
 
@@ -49,6 +39,5 @@ Open-source project & task management tool designed for developers and freelance
 
 ## Contact
 
-**Discord:** [zeediv](https://discord.com/users/444132380119138312)  
-**Email:** hello@zdv.sh  
-**Website:** [zdv.sh](https://zdv.sh)
+**Email:** [jakub@warkusz.pl](mailto:jakub@warkusz.pl)
+**Website:** [warkusz.pl](https://warkusz.pl)
