@@ -26,6 +26,9 @@ One of the largest game and VPS hosting platforms in Poland. Built from scratch,
 ### [Smithy](https://github.com/Anvoria/smithy)
 Open-source project and task management tool for developers. Built with FastAPI and Next.js. Minimal, modular, with GitHub integration.
 
+### [@wrksz/themes](https://github.com/jakubwarkusz/themes)
+Drop-in replacement for next-themes. React 19 ready, zero dependencies, cookie SSR for zero-flash, nested providers, and full TypeScript support. Every bug fixed, every missing feature added.
+
 ---
 
 ## Stats
@@ -42,4 +45,4 @@ Open-source project and task management tool for developers. Built with FastAPI 
 ## Contact
 
 **Email:** [jakub@warkusz.pl](mailto:jakub@warkusz.pl)
-**Website:** [warkusz.pl](https://warkusz.pl)
+**Website:** [wrksz.dev](https://wrksz.dev)
