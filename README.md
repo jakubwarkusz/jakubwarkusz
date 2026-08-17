@@ -16,6 +16,8 @@ Developer from Gdańsk. I co-found [Hostero](https://hostero.pl) and work at [Ho
 
 **[@wrksz/themes](https://github.com/jakubwarkusz/themes)** - modern theme management for Next.js 16+ and React 19+. Drop-in replacement for next-themes.
 
+**[shell](https://shell.wrksz.dev)** - terminal design system for the web with its own ordered-dithering canvas engine instead of gradients. 70+ components, pixel fonts, zero-transition mechanical feel.
+
 ---
 
 ## Stack
