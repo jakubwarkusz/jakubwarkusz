@@ -17,7 +17,7 @@ A new Hostero dashboard: a web client and our own server daemon that manages gam
 
 ## Stack
 
-| | |
+| Layer | Tools |
 | :-- | :-- |
 | Backend | Python, FastAPI, PostgreSQL, Go |
 | Frontend | TypeScript, React, Next.js |
