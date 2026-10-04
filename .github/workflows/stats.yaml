@@ -1,0 +1,33 @@
+# Redraws the README's painted header once a day (and on demand):
+# .github/scripts/stats.mjs writes images/header.svg and header-dark.svg,
+# committed only when the numbers changed.
+name: Stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Draw
+        run: node .github/scripts/stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+      - name: Commit
+        run: |
+          git diff --quiet -- .github/images && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/images/header.svg .github/images/header-dark.svg
+          git commit -m "chore(readme): update header stats"
+          git push

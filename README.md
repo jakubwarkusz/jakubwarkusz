@@ -1,9 +1,7 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/images/banner-dark.png" />
-    <img src=".github/images/banner.png" alt="Jakub Warkusz" width="100%" />
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/images/header-dark.svg" />
+  <img src=".github/images/header.svg" alt="Jakub Warkusz" width="100%" />
+</picture>
 
 # Jakub Warkusz
 
@@ -38,11 +36,5 @@ Theme switching for Next.js 16+ and React 18/19, with the next-themes API, so mo
 ### [shell](https://shell.wrksz.dev)
 
 105 components on Base UI with pixel fonts and an ordered-dithering canvas engine where other kits use gradients. Transitions are off by design, so it clicks like a terminal.
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=jakubwarkusz&theme=dark&hide_border=true)
-
-</div>
 
 [hello@wrksz.dev](mailto:hello@wrksz.dev) · [wrksz.dev](https://wrksz.dev)
