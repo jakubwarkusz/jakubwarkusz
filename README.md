@@ -1,5 +1,8 @@
 <p align="center">
-  <img src=".github/images/banner.png" alt="Jakub Warkusz" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/images/banner-dark.png" />
+    <img src=".github/images/banner.png" alt="Jakub Warkusz" width="100%" />
+  </picture>
 </p>
 
 # Jakub Warkusz
