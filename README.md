@@ -4,41 +4,37 @@
 
 # Jakub Warkusz
 
-*Half product, half engine.*
-
-Developer from Gdańsk. I co-found [Hostero](https://hostero.pl) and work at [Hoxger](https://hoxger.com), the studio behind it. I write Python and TypeScript, care about how things feel as much as how they work, and don't ship anything I'm not proud of.
-
----
+I'm a developer in Gdańsk. I co-founded [Hostero](https://hostero.pl), a game and VPS host, and I'm CTO at [Hoxger](https://hoxger.com), the studio that builds it. Most of my code is Python on the server and TypeScript in the browser.
 
 ## Now
 
-**Hostero Dashboard** - new web client with a custom server daemon for managing game and VPS infrastructure.
+A new Hostero dashboard: a web client and our own server daemon that manages game servers and VPSes on each node.
 
-**[@wrksz/themes](https://github.com/jakubwarkusz/themes)** - modern theme management for Next.js 16+ and React 19+. Drop-in replacement for next-themes.
+[@wrksz/themes](https://github.com/jakubwarkusz/themes), theme management for Next.js that replaces next-themes.
 
-**[shell](https://shell.wrksz.dev)** - terminal design system for the web with its own ordered-dithering canvas engine instead of gradients. 70+ components, pixel fonts, zero-transition mechanical feel.
-
----
+[shell](https://shell.wrksz.dev), a terminal-style design system for wrkspace.
 
 ## Stack
 
-**Primary:** Python · FastAPI · PostgreSQL
-
-**Secondary:** Go · Next.js · TypeScript
-
-**Infrastructure:** Docker · Linux · Nginx · Redis
-
----
+| | |
+| :-- | :-- |
+| Backend | Python, FastAPI, PostgreSQL, Go |
+| Frontend | TypeScript, React, Next.js |
+| Infrastructure | Linux, Docker, Nginx, Redis |
 
 ## Projects
 
 ### [Hostero](https://hostero.pl)
-One of the largest game and VPS hosting platforms in Poland. Built from scratch, operated in-house. Custom panel, custom API, custom daemon. 10 000+ clients · 5 000+ servers.
+
+One of the largest game and VPS hosts in Poland, with 10,000+ clients and 5,000+ servers deployed so far. We wrote the client panel, the API and the daemon that runs on every node, and we operate all of it in-house.
 
 ### [@wrksz/themes](https://github.com/jakubwarkusz/themes)
-Drop-in replacement for next-themes. React 19 ready, zero dependencies, cookie SSR for zero-flash, nested providers, and full TypeScript support. Every bug fixed, every missing feature added.
 
----
+Theme switching for Next.js 16+ and React 18/19, with the next-themes API, so moving over is one import. It fixes the React 19 inline-script warning and the stale theme under `Activity` and `cacheComponents`. It can keep the theme in a cookie, so the server renders the right one with no flash. Providers nest, `createThemes()` types your theme names everywhere, and the package has no runtime dependencies.
+
+### [shell](https://shell.wrksz.dev)
+
+105 components on Base UI with pixel fonts and an ordered-dithering canvas engine where other kits use gradients. Transitions are off by design, so it clicks like a terminal.
 
 <div align="center">
 
@@ -46,6 +42,4 @@ Drop-in replacement for next-themes. React 19 ready, zero dependencies, cookie S
 
 </div>
 
----
-
-[jakub@warkusz.pl](mailto:jakub@warkusz.pl) · [wrksz.dev](https://wrksz.dev)
+[hello@wrksz.dev](mailto:hello@wrksz.dev) · [wrksz.dev](https://wrksz.dev)
